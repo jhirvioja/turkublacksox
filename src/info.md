@@ -41,4 +41,4 @@ Ensimmäisissä treeneissä tarvitset vain asialliset sisä- tai ulkoliikuntavar
 
 * * *
 
-**Haluatko tietää lisää baseballista urheilulajina? Katso [Linkit-sivumme](/turkublacksox-11ty/linkit/)!**
+**Haluatko tietää lisää baseballista urheilulajina? Katso [Linkit-sivumme]({{ '/linkit/' | url }})!**

@@ -4,7 +4,7 @@ This is a website for the Finnish non-profit amateur baseball team Turku Black S
 
 ## Live
 
-Live website that will be updated by the team can be found at [#](TBA).
+Live website that will be updated by the team can be found at [TBA](#).
 
 ## Launch
 

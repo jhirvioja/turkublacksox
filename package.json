@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx eleventy",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'turkublacksox-11ty'",
     "serve": "npx eleventy --serve"
   },
   "keywords": [],

@@ -1,0 +1,30 @@
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#myNavbar"
+        aria-label="Collapsed Mode Navigation Hamburger"
+      >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img
+        src="{{ '/img/blacksox-small250.png' | url }}"
+        alt="Turku Black Sox Logo Small"
+        class="headerlogo"
+        style="padding: 10px"
+      />
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      {%- for entry in collections.all | eleventyNavigation %}
+        <li class="{% if entry.url == page.url %}active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+      {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

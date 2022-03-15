@@ -1,0 +1,161 @@
+---
+layout: layouts/base.njk
+title: "Turku Black Sox | Baseball Team | Est. 2011"
+boksititle: "Ajankohtaista"
+boksisisalto: "Ennen ulkoilmaan siirtymistä joukkueen harjoitukset ovat perjantaisin klo 21:00-22:00 Impivaaran jalkapallohallissa (Eskonkatu 1), tervetuloa mukaan! Etsimme aina uusia pelaajia."
+linkki1teksti: "Osoite Google Mapsissä"
+linkki1url: "https://goo.gl/maps/BwTp9Qd3xb71wXc36"
+boksisisalto2: "13-19-vuotiaat maksutta MIHI-oikeudella, muille ensimmäiset kokeilukerrat ovat maksuttomia."
+linkki2teksti: "Lisätietoa MIHI:stä"
+linkki2url: "https://mihi.fi/"
+eleventyNavigation:
+  key: Koti
+  order: 1
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <div
+        id="myCarousel"
+        class="carousel slide"
+        data-ride="carousel"
+        role="marquee"
+      >
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="tablist">
+          <div class="item active" role="tab" id="tab-1">
+            <img
+              src="{{ '/img/karuselli-1.webp' | url }}"
+              alt="Turku Black Sox player batting"
+            />
+            <div class="carousel-caption1" aria-describedby="tab-1">
+              <caption>
+                Kuva © Loudlife Media |
+              </caption>
+              <a href="http://www.loudlifemedia.fi/">www.loudlifemedia.fi</a>
+            </div>
+          </div>
+          <div class="item" role="tab" id="tab-2">
+            <img
+              src="{{ '/img/karuselli-2.webp' | url }} "
+              alt="Turku Black Sox player reaching base"
+            />
+            <div class="carousel-caption2" aria-describedby="tab-2">
+              <caption>
+                Kuva © Loudlife Media |
+              </caption>
+              <a href="http://www.loudlifemedia.fi/#">www.loudlifemedia.fi</a>
+            </div>
+          </div>
+          <div class="item" role="tab" id="tab-3">
+            <img
+              src="{{ '/img/karuselli-3.webp' | url }}"
+              alt="Turku Black Sox team dugout"
+            />
+            <div class="carousel-caption3" aria-describedby="tab-3">
+              <caption>
+                Kuva © Loudlife Media |
+              </caption>
+              <a href="http://www.loudlifemedia.fi/?">www.loudlifemedia.fi</a>
+            </div>
+          </div>
+        </div>
+        <a
+          class="left carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-left"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="right carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-right"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <h1 style="text-align: center; font-size: 1.5em">{{ boksititle  }}</h1>
+    <div class="col-sm-4">
+      <div class="well">
+        <p style="text-align: center">
+        {{ boksisisalto }}
+        </p>
+        <p style="text-align: center; padding: 1.12em">
+          <a href="{{ linkki1url }}"
+            >{{ linkki1teksti }}</a
+          >
+        </p>
+        <p style="text-align: center">
+          {{ boksisisalto2 }}
+        </p>
+        <p style="text-align: center; padding: 1.12em 0 0 0">
+          <a href="{{ linkki2url }}">{{ linkki2teksti }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr />
+</div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://www.pesis.fi/baseball/kilpailu/sarjat/"
+        ><img
+          src="{{ '/img/fatlizard.png' | url }}"
+          class="img-responsive"
+          alt="Fat Lizard League Logo"
+      /></a>
+      <div class="well">
+        <p style="display: inline">
+          Turku Black Sox miesten joukkue pelaa kaudella 2022 Fat Lizard
+          Leaguessa
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.baseball.fi/"
+        ><img
+          src="{{ '/img/baseballfinland.png' | url }}"
+          class="img-responsive"
+          alt="Baseball Finland Logo"
+      /></a>
+      <div class="well">
+        <p style="display: inline">
+          Fat Lizard League on Suomen Baseball- ja Softball-liiton toiseksi
+          korkein sarja
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.pesis.fi/"
+        ><img
+          src="{{ '/img/pesapalloliitto.png' | url }}"
+          class="img-responsive"
+          alt="Pesäpalloliitto Logo"
+      /></a>
+      <div class="well">
+        <p style="display: inline">
+          Suomen Baseball- ja Softball-liitto toimii Pesäpalloliiton
+          alaisuudessa
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

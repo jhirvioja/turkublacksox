@@ -8,7 +8,8 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: "src"
+      input: "src",
+      pathPrefix: "/turkublacksox-11ty/"
     }
   }
 };

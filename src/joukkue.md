@@ -10,7 +10,7 @@ eleventyNavigation:
 
 | #   | Nimi                 | Pelipaikka   | Kansal. |
 | --- | -------------------- | ------------ | ------- |
-| 3   | Stuart Foley         | Statistician | USA/FIN |
+| 3   | Stuart Foley         | Statistiikka | USA/FIN |
 | 4   | Demetrius Sanderson  | OF           | FIN     |
 | 7   | Daniel Martélius     | C/IF         | FIN     |
 | 9   | Anton Palmroos       | IF           | FIN     |

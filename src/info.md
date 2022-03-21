@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 2
 ---
 
-## Johtokunta 2021-2022
+## Johtokunta 2021–2022
 
 Puheenjohtaja / Statistiikka: Stuart Foley  
 Manageri & varapuheenjohtaja: Johannes Kolehmainen  

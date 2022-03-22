@@ -1,2 +1,6 @@
 .eleventy.js
+index.njk
 info.md
+joukkue.md
+linkit.njk
+ottelut.md

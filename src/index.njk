@@ -5,7 +5,7 @@ boksititle: "Ajankohtaista"
 boksisisalto: "Ennen ulkoilmaan siirtymistä joukkueen harjoitukset ovat perjantaisin klo 21:00-22:00 Impivaaran jalkapallohallissa (Eskonkatu 1), tervetuloa mukaan! Etsimme aina uusia pelaajia."
 linkki1teksti: "Osoite Google Mapsissä"
 linkki1url: "https://goo.gl/maps/BwTp9Qd3xb71wXc36"
-boksisisalto2: "13-19-vuotiaat maksutta MIHI-oikeudella, muille ensimmäiset kokeilukerrat ovat maksuttomia."
+boksisisalto2: "19-vuotiaat maksutta MIHI-oikeudella, muille ensimmäiset kokeilukerrat ovat maksuttomia."
 linkki2teksti: "Lisätietoa MIHI:stä"
 linkki2url: "https://mihi.fi/"
 eleventyNavigation:
@@ -97,7 +97,7 @@ eleventyNavigation:
         <p style="text-align: center">
         {{ boksisisalto }}
         </p>
-        <p style="text-align: center; padding: 1.12em">
+        <p style="text-align: center">
           <a href="{{ linkki1url }}"
             >{{ linkki1teksti }}</a
           >
@@ -105,9 +105,9 @@ eleventyNavigation:
         <p style="text-align: center">
           {{ boksisisalto2 }}
         </p>
-        <p style="text-align: center; padding: 1.12em 0 0 0">
+        <span style="text-align: center; display: table; margin: 0 auto">
           <a href="{{ linkki2url }}">{{ linkki2teksti }}</a>
-        </p>
+        </span>
       </div>
     </div>
   </div>
@@ -116,7 +116,7 @@ eleventyNavigation:
 <div class="container text-center">
   <div class="row">
     <div class="col-md-4">
-      <a href="https://www.pesis.fi/baseball/kilpailu/sarjat/"
+      <a href="https://www.pesis.fi/baseball/kilpailu/fat-lizard-league/"
         ><img
           src="{{ '/img/fatlizard.png' | url }}"
           class="img-responsive"

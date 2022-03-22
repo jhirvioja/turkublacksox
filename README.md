@@ -1,10 +1,10 @@
 # Turku Black Sox Eleventy Website
 
-This is a website for the Finnish non-profit amateur baseball team Turku Black Sox. It serves as a learning project for me personally, and as an example of how an Eleventy page can be built and served from a Github repo to Github Pages. The content is in Finnish, sorry!
+This is a website for the Finnish non-profit amateur baseball team Turku Black Sox. It serves as a learning project for me personally, and as an example of how an Eleventy page can be built and served from a GitHub repo to GitHub Pages. The content is in Finnish, sorry!
 
 ## Live
 
-Live website that will be updated by the team can be found at [TBA](#).
+Live website that will be updated by the team can be found at [www.turkublacksox.fi](https://www.turkublacksox.fi).
 
 ## Launch
 

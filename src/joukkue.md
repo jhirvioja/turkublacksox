@@ -18,6 +18,7 @@ eleventyNavigation:
 | 16  | Johannes Kolehmainen | OF/IF/P      | FIN     |
 | 19  | Tuomas Tilkanen      | IF/OF        | FIN     |
 | 22  | Jesper Inola         | IF           | FIN     |
+| 30  | Erkka Tuominiemi     | IF           | FIN     |
 | 31  | Tomi Rantamo         | P/IF         | FIN     |
 | 34  | Niklas Pelander      | P/SS/3B      | FIN     |
 | 47  | Ville Roisko         | 2B/SS/P      | FIN     |

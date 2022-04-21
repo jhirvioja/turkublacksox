@@ -10,9 +10,23 @@ eleventyNavigation:
 
 Fat Lizard Leaguen sarjataulukon löydät [Pesis.fi -sivustolta](https://www.pesis.fi/baseball/kilpailu/fat-lizard-league/)
 
-| Päivä | Ottelut | Paikka | Tulos |
-| ----- | ------- | ------ | ----- |
-| TBA   | TBA     | TBA    | TBA   |
+| Päivä   | Ottelut                 | Paikka   | Tulos |
+| ------- | ------------------------| ---------| ----- |
+| 21.5.   | White Sox - Torn Sox    | Tampere  | TBA   |
+| 21.5.   | Tigers - Torn Sox       | Tampere  | TBA   |
+| 28.5.   | Torn Sox - XL5          | Nokia    | TBA   |
+| 28.5.   | White Sox - Torn Sox    | Nokia    | TBA   |
+| 2.7.    | Torn Sox - Tigers       | Myllypuro| TBA   |
+| 2.7.    | XL5 - Torn Sox          | Myllypuro| TBA   |
+| 23.7.   | Torn Sox - XL5          | Myllypuro| TBA   |
+| 23.7.   | Torn Sox - Tigers       | Myllypuro| TBA   |
+| 30.7.   | Torn Sox - Tigers       | Turku    | TBA   |
+| 30.7.   | Torn Sox - White Sox    | Turku    | TBA   |
+| 6.8.    | Torn Sox - White Sox    | Kilo     | TBA   |
+| 6.8.    | XL5 - Torn Sox          | Kilo     | TBA   |
+| 3.9.    | Finals 1 & 2            | TBA      | TBA   |
+| 10.9.   | Final 3 (tarvittaessa)  | TBA      | TBA   |
+
 
 ---
 

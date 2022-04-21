@@ -15,7 +15,7 @@ In terminal:
 1. Use the command `nvm use` to choose the right Node version which is stated in this project's .nvmrc-file (the version is v16.14.0, ymmv with different versions but please note Eleventy requires Node 12 or newer)
 2. Use the command `npm install` to install dependencies
 3. Use the command `npm run serve` to run the site locally
-4. Go to any browser and visit http://localhost:8000
+4. Go to any browser and visit http://localhost:8080
 
 ## Contact / Improvements
 

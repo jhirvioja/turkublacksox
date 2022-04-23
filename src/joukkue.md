@@ -15,6 +15,7 @@ eleventyNavigation:
 | 7   | Daniel Martélius     | C/IF         | FIN     |
 | 9   | Anton Palmroos       | IF           | FIN     |
 | 13  | Tiera Lintunen       | OF/P         | FIN     |
+| 17  | Juho-Pekka Fagerström| IF/OF        | FIN     |
 | 19  | Tuomas Tilkanen      | IF/OF        | FIN     |
 | 22  | Jesper Inola         | IF           | FIN     |
 | 30  | Erkka Tuominiemi     | IF           | FIN     |

@@ -21,4 +21,6 @@ eleventyNavigation:
 | 30  | Erkka Tuominiemi     | IF           | FIN     |
 | 31  | Tomi Rantamo         | P/IF         | FIN     |
 | 47  | Ville Roisko         | 2B/SS/P      | FIN     |
+| 77  | Emil Vänskä          | 1B           | FIN     |
 | 94  | Jesse Haavisto       | C/IF         | FIN     |
+|     | Petteri Peijonen     | 1B/2B/LF     | FIN     |

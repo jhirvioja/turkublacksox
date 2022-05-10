@@ -7,19 +7,25 @@ eleventyExcludeFromCollections: true
 <!DOCTYPE html>
 <html lang="fi">
   <head>
-    <title>{{ title }}</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Baseballia Varsinais-Suomen alueella jo vuodesta 2011. Liity mukaan!" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-    <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | url }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/img/apple-touch-icon.png' | url }}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/favicon-32x32.png' | url }}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/favicon-16x16.png' | url }}" />
-    <link rel="manifest" href="{{ '/img/site.webmanifest' | url }}" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="{{ '/css/styles.css' | url }}" />
+    <head>
+      <title>{{ title }}</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="Baseballia Varsinais-Suomen alueella jo vuodesta 2011. Liity mukaan!" />
+      <meta name="theme-color" content="#333333" />
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+        crossorigin="anonymous"
+      />
+      <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | url }}" />
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ '/img/apple-touch-icon.png' | url }}" />
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/favicon-32x32.png' | url }}" />
+      <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/favicon-16x16.png' | url }}" />
+      <link rel="manifest" href="{{ '/manifest.json' | url }}" />
+      <link rel="stylesheet" type="text/css" href="{{ '/css/styles.css' | url }}" />
+    </head>
   </head>
   <body>
     <main>
@@ -31,5 +37,15 @@ eleventyExcludeFromCollections: true
         </center>
       </div>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

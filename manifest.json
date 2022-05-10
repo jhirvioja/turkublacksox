@@ -1,8 +1,8 @@
 {
   "name": "Turku Black Sox",
   "short_name": "Turku Black Sox",
-  "theme_color": "#333333",
-  "background_color": "#333333",
+  "theme_color": "#222222",
+  "background_color": "#222222",
   "display": "standalone",
   "orientation": "any",
   "scope": "/",

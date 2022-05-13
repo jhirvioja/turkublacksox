@@ -12,7 +12,6 @@ eleventyNavigation:
 | --- | -------------------- | ------------ | ------- |
 | 4   | Demetrius Sanderson  | OF           | FIN     |
 | 7   | Daniel Martélius     | C/IF         | FIN     |
-| 9   | Anton Palmroos       | IF           | FIN     |
 | 13  | Tiera Lintunen       | OF/P         | FIN     |
 | 17  | Juho-Pekka Fagerström| OF           | FIN     |
 | 19  | Tuomas Tilkanen      | IF/OF        | FIN     |

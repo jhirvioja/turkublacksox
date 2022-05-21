@@ -8,7 +8,7 @@ eleventyNavigation:
 
 ## Johtokunta 2021–2022
 
-Puheenjohtaja / Statistiikka: Stuart Foley  
+Puheenjohtaja: Stuart Foley  
 Manageri & varapuheenjohtaja: Johannes Kolehmainen  
 Harjoittelujohtaja: Daniel Martélius  
 Valmentajat: Ville Roisko, Jesper Inola  

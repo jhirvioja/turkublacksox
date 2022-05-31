@@ -12,18 +12,18 @@ Fat Lizard Leaguen sarjataulukon löydät [Pesis.fi -sivustolta](https://www.pes
 
 | Päivä   | Ottelut                 | Paikka   | Tulos |
 | ------- | ------------------------| ---------| ----- |
-| 21.5.   | White Sox - Torn Sox    | Tampere  | TBA   |
-| 21.5.   | Tigers - Torn Sox       | Tampere  | TBA   |
-| 28.5.   | Torn Sox - XL5          | Nokia    | TBA   |
-| 28.5.   | White Sox - Torn Sox    | Nokia    | TBA   |
-| 2.7.    | Torn Sox - Tigers       | Myllypuro| TBA   |
+| 21.5.   | Torn Sox - **White Sox**| Tampere  |11 - 12|
+| 21.5.   | Torn Sox  - **Tigers**  | Tampere  |4 - 14 |
+| 28.5.   | Torn Sox - **XL5**      | Nokia    |0 - 10 |
+| 28.5.   | Torn Sox - **White Sox**| Nokia    |4 - 14 |
+| 2.7.    | Tiger - Torn Sox        | Myllypuro| TBA   |
 | 2.7.    | XL5 - Torn Sox          | Myllypuro| TBA   |
 | 23.7.   | Torn Sox - XL5          | Myllypuro| TBA   |
-| 23.7.   | Torn Sox - Tigers       | Myllypuro| TBA   |
-| 30.7.   | Torn Sox - Tigers       | Turku    | TBA   |
-| 30.7.   | Torn Sox - White Sox    | Turku    | TBA   |
-| 6.8.    | Torn Sox - White Sox    | Kilo     | TBA   |
-| 6.8.    | XL5 - Torn Sox          | Kilo     | TBA   |
+| 23.7.   | Tigers - Torn Sox       | Myllypuro| TBA   |
+| 30.7.   | Tigers - Torn Sox       | Turku    | TBA   |
+| 30.7.   | White Sox - Torn Sox    | Turku    | TBA   |
+| 6.8.    | White Sox - Torn Sox    | Kilo     | TBA   |
+| 6.8.    | Torn Sox - XL5          | Kilo     | TBA   |
 | 3.9.    | Finals 1 & 2            | TBA      | TBA   |
 | 10.9.   | Final 3 (tarvittaessa)  | TBA      | TBA   |
 

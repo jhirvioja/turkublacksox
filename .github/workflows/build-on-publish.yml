@@ -4,10 +4,6 @@ on:
   repository_dispatch:
   types: [publish-event]
 
-env:
-  CTFL_SPACE: ${{ secrets.CTFL_SPACE }}
-  CTFL_ACCESSTOKEN: ${{ secrets.CTFL_ACCESSTOKEN }}
-
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -25,6 +21,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies & build
+        with:
+          CTFL_SPACE: ${{ secrets.CTFL_SPACE }}
+          CTFL_ACCESSTOKEN: ${{ secrets.CTFL_ACCESSTOKEN }}
         run: |
           npm ci
           npm run build

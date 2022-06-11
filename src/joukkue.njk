@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+title: "Joukkue | Turku Black Sox"
+eleventyNavigation:
+  key: Joukkue
+  order: 3
+---
+
+<div class="container">
+  <center>
+    <img src="{{ '/img/team.png' | url }}" width="90px" height="90px" alt="Team Icon" />
+  </center>
+</div>
+<div style="margin: 10px;"></div>
+<div class="container text-start tableremovepadding">
+<center>
+  {{ joukkuesivu | renderRichTextWithAssets | safe }}
+</center>
+</div>

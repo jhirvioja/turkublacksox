@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+title: "Ottelut | Turku Black Sox"
+eleventyNavigation:
+  key: Ottelut
+  order: 4
+---
+
+<div class="container">
+  <center>
+    <img src="{{ '/img/games.png' | url }}"  width="90px" height="90px" alt="Games Icon" />
+  </center>
+</div>
+<div style="margin: 10px;"></div>
+<div class="container text-start tableremovepadding">
+<center>
+  {{ ottelutsivu | renderRichTextWithAssets | safe }}
+</center>
+</div>

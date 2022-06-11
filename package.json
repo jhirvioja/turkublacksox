@@ -12,7 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-navigation": "^0.3.2"
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "@contentful/rich-text-html-renderer": "^15.13.1",
+    "contentful": "^9.1.29",
+    "dotenv": "^16.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "html-minifier": "^4.0.0"
+  }
 }

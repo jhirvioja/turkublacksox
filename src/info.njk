@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: "Info | Turku Black Sox"
+eleventyNavigation:
+  key: Info
+  order: 2
+---
+
+<div class="container">
+  <center>
+    <img src="{{ '/img/info.png' | url }}" width="90px" height="90px" alt="Info Icon" />
+  </center>
+</div>
+<div style="margin: 10px;"></div>
+<div class="container text-start info">
+  {{ infosivu | renderRichTextWithAssets | safe }}
+</div>

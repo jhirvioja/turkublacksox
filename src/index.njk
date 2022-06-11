@@ -1,18 +1,6 @@
 ---
 layout: layouts/base.njk
 title: "Turku Black Sox | Baseball Team | Est. 2011"
-boksititle: "Ajankohtaista"
-boksisisalto: "Turku Black Sox pelaa kaudella 2022 Myllypuro Tornadoesin kanssa yhdistetyssä joukkueessa. Pelaamme nimellä Torn Sox.
-
-
-Ulkoharjoitukset alkavat 12.5. Kupittaan Kivituhka kentällä (Lemminkäisenkatu 11, 20520 Turku), maanantaisin ja torstaisin klo 18:30-20:00. Sisäharjoitukset jatkuvat 6.5. saakka perjantaisin klo 21:00-22:00 Impivaaran jalkapallohallissa (Eskonkatu 1), tervetuloa mukaan! Etsimme aina uusia pelaajia."
-linkki1teksti: "Sisätreenit Google Mapsissa"
-linkki1url: "https://goo.gl/maps/BwTp9Qd3xb71wXc36"
-linkki2teksti: "Ulkotreenit Google Mapsissa"
-linkki2url: "https://goo.gl/maps/Pci2XcbpDZhYbbEZ9"
-boksisisalto2: "13-19-vuotiaat maksutta MIHI-oikeudella, muille ensimmäiset kokeilukerrat ovat maksuttomia."
-linkki3teksti: "Lisätietoa MIHI:stä"
-linkki3url: "https://mihi.fi/"
 eleventyNavigation:
   key: Koti
   order: 1
@@ -40,7 +28,7 @@ eleventyNavigation:
             />
             <div class="carousel-caption1" aria-describedby="tab-1">
               <caption>
-                Kuva © Loudlife Media |
+                Kuva © Loudlife Media |&nbsp;
               </caption>
               <a href="http://www.loudlifemedia.fi/">www.loudlifemedia.fi</a>
             </div>
@@ -52,7 +40,7 @@ eleventyNavigation:
             />
             <div class="carousel-caption2" aria-describedby="tab-2">
               <caption>
-                Kuva © Loudlife Media |
+                Kuva © Loudlife Media |&nbsp;
               </caption>
               <a href="http://www.loudlifemedia.fi/#">www.loudlifemedia.fi</a>
             </div>
@@ -64,7 +52,7 @@ eleventyNavigation:
             />
             <div class="carousel-caption3" aria-describedby="tab-3">
               <caption>
-                Kuva © Loudlife Media |
+                Kuva © Loudlife Media |&nbsp;
               </caption>
               <a href="http://www.loudlifemedia.fi/?">www.loudlifemedia.fi</a>
             </div>
@@ -96,21 +84,9 @@ eleventyNavigation:
         </a>
       </div>
     </div>
-    <h1 style="text-align: center; font-size: 1.5em">{{ boksititle  }}</h1>
+    <h1 style="text-align: center; font-size: 1.5em">{{ boksititle }}</h1>
     <div class="col-sm-4">
-      <div class="well">
-        <p style="text-align: center; white-space: pre-line;">{{ boksisisalto }}</p>
-        <p style="text-align: center">
-          <a href="{{ linkki1url }}">{{ linkki1teksti }}</a>
-        </p>
-        <p style="text-align: center">
-          <a href="{{ linkki2url }}">{{ linkki2teksti }}</a>
-        </p>
-        <p style="text-align: center; white-space: pre-line;">{{ boksisisalto2 }}</p>
-        <span style="text-align: center; display: table; margin: 0 auto">
-          <a href="{{ linkki3url }}">{{ linkki3teksti }}</a>
-        </span>
-      </div>
+      <div class="well" style="text-align: center;">{{ boksisisalto | renderRichTextWithAssets | safe }}</div>
     </div>
   </div>
   <hr />
@@ -123,6 +99,8 @@ eleventyNavigation:
           src="{{ '/img/fatlizard.png' | url }}"
           class="img-responsive"
           alt="Fat Lizard League Logo"
+          style="width:60%;min-width:200px;margin-left:auto;margin-right:auto"
+          loading="lazy"
       /></a>
       <div class="well">
         <p style="display: inline">
@@ -137,6 +115,8 @@ eleventyNavigation:
           src="{{ '/img/baseballfinland.png' | url }}"
           class="img-responsive"
           alt="Baseball Finland Logo"
+          style="width:60%;min-width:200px;margin-left:auto;margin-right:auto"
+          loading="lazy"
       /></a>
       <div class="well">
         <p style="display: inline">
@@ -151,6 +131,8 @@ eleventyNavigation:
           src="{{ '/img/pesapalloliitto.png' | url }}"
           class="img-responsive"
           alt="Pesäpalloliitto Logo"
+          style="width:60%;min-width:200px;margin-left:auto;margin-right:auto"
+          loading="lazy"
       /></a>
       <div class="well">
         <p style="display: inline">
@@ -160,4 +142,5 @@ eleventyNavigation:
       </div>
     </div>
   </div>
+  {{ valinnainenteksti | renderRichTextWithAssets | safe }}
 </div>

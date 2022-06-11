@@ -6,3 +6,5 @@ linkit.njk
 ottelut.md
 **/getup.js
 **/getyear.js
+**/contentful.js
+**/*.css

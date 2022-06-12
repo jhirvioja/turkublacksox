@@ -2,7 +2,7 @@ name: Build Eleventy on Contentful Publish Event
 
 on:
   repository_dispatch:
-    types: [publishevent]
+    types: [publish]
 
 jobs:
   build:
@@ -32,5 +32,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.MY_TOKEN }}
           cname: www.turkublacksox.fi

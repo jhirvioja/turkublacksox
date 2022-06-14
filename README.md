@@ -8,6 +8,8 @@ Live website that will be updated by the team can be found at [www.turkublacksox
 
 ## Launch
 
+**Update**: per the addition of fetching data from Contentful, you can no longer run this project unless you have the right `CTFL_SPACE` and `CTFL_ACCESSTOKEN` envs.
+
 The following instructions expect that you have some experience of using [Node.js, npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and a terminal of your choice.
 
 In terminal:

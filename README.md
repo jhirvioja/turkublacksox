@@ -1,6 +1,6 @@
 # Turku Black Sox Eleventy Website
 
-This is a website for the Finnish non-profit amateur baseball team Turku Black Sox. It serves as a learning project for me personally, and as an example of how an Eleventy page can be built and served from a GitHub repo to GitHub Pages.
+This is a website for the Finnish non-profit amateur baseball team Turku Black Sox. It serves as a learning project for me personally, and as an example of how an Eleventy page can be built and served from a GitHub repo to GitHub Pages. Since June 2022 the site content is also pulled from Contentful, and a webhook builds the static site via GitHub Actions everytime something is published in Contentful.
 
 ## Live
 

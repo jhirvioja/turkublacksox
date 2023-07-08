@@ -6,6 +6,8 @@ const client = contentful.createClient({
   accessToken: process.env.CTFL_ACCESSTOKEN,
 });
 
-module.exports = client.getEntry("4y2tBfuvqLZ7V3i1aXc0i6").then(function (entry) {
-  return entry.fields.joukkue;
-});
+module.exports = client
+  .getEntry("4y2tBfuvqLZ7V3i1aXc0i6")
+  .then(function (entry) {
+    return entry.fields.joukkue;
+  });

@@ -1,5 +1,6 @@
 # Turku Black Sox Website
-![HTML5](https://img.shields.io/badge/HTML-5-orange) ![CSS3](https://img.shields.io/badge/CSS-3-blue) ![Bootstrap](https://img.shields.io/badge/Bootstrap-3.4.1-purple) ![jQuery](https://img.shields.io/badge/jQuery-3.6.0-blue) ![Eleventy](https://img.shields.io/badge/Eleventy-2.0.1-black)
+![Static Badge](https://img.shields.io/badge/HTML5-orange?logo=HTML5) ![Static Badge](https://img.shields.io/badge/CSS3-blue?logo=CSS3) ![Static Badge](https://img.shields.io/badge/JavaScript-yellow?logo=JavaScript) ![Static Badge](https://img.shields.io/badge/Bootstrap-3.4.1-purple?logo=Bootstrap) ![Static Badge](https://img.shields.io/badge/jQuery-3.6.0-blue?logo=jQuery) ![Static Badge](https://img.shields.io/badge/Eleventy-2.0.1-black?logo=Eleventy)
+
 
 This is a website for the Finnish non-profit amateur baseball team Turku Black Sox. It serves as a learning project, and as an example on how an Eleventy page can be built and served from a GitHub repo to GitHub Pages. Since June 2022 the site content is also pulled from Contentful, and a webhook builds the static site via GitHub Actions everytime something is published in Contentful.
 

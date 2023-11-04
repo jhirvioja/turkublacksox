@@ -1,12 +1,14 @@
-name: Build Eleventy
+name: Build and Deploy Eleventy Page
 
 on:
   push:
     branches:
       - master
+  repository_dispatch:
+    types: [publish]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-20.04
 
     strategy:

@@ -13,7 +13,7 @@
         <span class="icon-bar"></span>
       </button>
       <img
-        src="{{ '/img/blacksox-small250.png' | url }}"
+        src="/img/blacksox-small250.png"
         alt="Turku Black Sox Logo Small"
         class="headerlogo"
         style="padding: 10px;width: 150px;height: 150px"
@@ -23,7 +23,7 @@
       <ul class="nav navbar-nav">
         {%- for entry in collections.all | eleventyNavigation %}
           <li class="{% if entry.url == page.url %}active{% endif %}">
-            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+            <a href="{{ entry.url }}">{{ entry.title }}</a>
           </li>
         {%- endfor %}
       </ul>

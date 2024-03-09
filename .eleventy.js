@@ -1,5 +1,6 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const {documentToHtmlString} = require('@contentful/rich-text-html-renderer');
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const { documentToHtmlString } = require('@contentful/rich-text-html-renderer');
 const { BLOCKS } = require('@contentful/rich-text-types');
 const htmlmin = require("html-minifier");
 
@@ -22,6 +23,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/manifest.json");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addFilter("renderRichTextAsHtml", (value) => documentToHtmlString(value));
   eleventyConfig.addFilter("renderRichTextWithAssets", (value) => documentToHtmlString(value, options));
 
